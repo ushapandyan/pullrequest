@@ -4,7 +4,7 @@
 PR=$1
 
 # Load common environment
-. ../sqlib.sh
+./sqlib.sh
 
 # Scan initial master branch
 git checkout origin/pr-demo
